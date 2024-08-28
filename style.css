@@ -231,6 +231,13 @@ p{
     text-align: center;
 }
 
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
 #product1 .pro {
     width: 23%;
     min-width: 250px;
@@ -281,7 +288,7 @@ p{
     color: #088178;
 }
 
-#product1 .pro i.fa-shopping-cart{
+/* #product1 .pro i.fa-shopping-cart{
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -293,5 +300,7 @@ p{
     position: absolute;
     bottom: 20px;
     right: 10px;
-}
+} */
+
+
 
